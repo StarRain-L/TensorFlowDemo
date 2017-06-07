@@ -1,0 +1,400 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B8178281EE7A06400F88912 /* imagenet_comp_graph_label_strings.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2B8178261EE7A06400F88912 /* imagenet_comp_graph_label_strings.txt */; };
+		2B8178291EE7A06400F88912 /* tensorflow_inception_graph.pb in Resources */ = {isa = PBXBuildFile; fileRef = 2B8178271EE7A06400F88912 /* tensorflow_inception_graph.pb */; };
+		2B81782D1EE7A3F200F88912 /* libTensorFlow.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B81782C1EE7A3F200F88912 /* libTensorFlow.a */; };
+		2B8178341EE7BE0700F88912 /* libtensorflow-core-arm64.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B8178331EE7BE0700F88912 /* libtensorflow-core-arm64.a */; };
+		2BAAAF2F1EE50ECE0030405D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BAAAF2E1EE50ECE0030405D /* main.m */; };
+		2BAAAF321EE50ECE0030405D /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2BAAAF311EE50ECE0030405D /* AppDelegate.mm */; };
+		2BAAAF381EE50ECE0030405D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BAAAF361EE50ECE0030405D /* Main.storyboard */; };
+		2BAAAF3A1EE50ECE0030405D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BAAAF391EE50ECE0030405D /* Assets.xcassets */; };
+		2BAAAF3D1EE50ECE0030405D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BAAAF3B1EE50ECE0030405D /* LaunchScreen.storyboard */; };
+		2BAAAF591EE51A510030405D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BAAAF581EE51A510030405D /* CoreGraphics.framework */; };
+		2BAAAF5B1EE51A570030405D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BAAAF5A1EE51A570030405D /* Foundation.framework */; };
+		2BAAAF5D1EE51A5E0030405D /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BAAAF5C1EE51A5E0030405D /* ImageIO.framework */; };
+		2BAAAF5F1EE51A650030405D /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BAAAF5E1EE51A650030405D /* AssetsLibrary.framework */; };
+		2BAAAF611EE51A6C0030405D /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BAAAF601EE51A6C0030405D /* CoreMedia.framework */; };
+		2BAAAF631EE51A720030405D /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BAAAF621EE51A720030405D /* AVFoundation.framework */; };
+		2BAAAF651EE51A780030405D /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BAAAF641EE51A780030405D /* CoreFoundation.framework */; };
+		2BAAAF671EE51A7E0030405D /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BAAAF661EE51A7E0030405D /* CoreImage.framework */; };
+		2BAAAF691EE51A870030405D /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BAAAF681EE51A870030405D /* Accelerate.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2B8178261EE7A06400F88912 /* imagenet_comp_graph_label_strings.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = imagenet_comp_graph_label_strings.txt; sourceTree = "<group>"; };
+		2B8178271EE7A06400F88912 /* tensorflow_inception_graph.pb */ = {isa = PBXFileReference; lastKnownFileType = file; path = tensorflow_inception_graph.pb; sourceTree = "<group>"; };
+		2B81782C1EE7A3F200F88912 /* libTensorFlow.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libTensorFlow.a; sourceTree = "<group>"; };
+		2B8178331EE7BE0700F88912 /* libtensorflow-core-arm64.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libtensorflow-core-arm64.a"; sourceTree = "<group>"; };
+		2BAAAF2A1EE50ECD0030405D /* TensorFlowDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TensorFlowDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BAAAF2E1EE50ECE0030405D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2BAAAF301EE50ECE0030405D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2BAAAF311EE50ECE0030405D /* AppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
+		2BAAAF371EE50ECE0030405D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2BAAAF391EE50ECE0030405D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2BAAAF3C1EE50ECE0030405D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2BAAAF3E1EE50ECE0030405D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BAAAF441EE517C40030405D /* TensorflowVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TensorflowVC.h; sourceTree = "<group>"; };
+		2BAAAF581EE51A510030405D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2BAAAF5A1EE51A570030405D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2BAAAF5C1EE51A5E0030405D /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		2BAAAF5E1EE51A650030405D /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		2BAAAF601EE51A6C0030405D /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		2BAAAF621EE51A720030405D /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		2BAAAF641EE51A780030405D /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		2BAAAF661EE51A7E0030405D /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		2BAAAF681EE51A870030405D /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2BAAAF271EE50ECD0030405D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B81782D1EE7A3F200F88912 /* libTensorFlow.a in Frameworks */,
+				2BAAAF691EE51A870030405D /* Accelerate.framework in Frameworks */,
+				2BAAAF671EE51A7E0030405D /* CoreImage.framework in Frameworks */,
+				2BAAAF651EE51A780030405D /* CoreFoundation.framework in Frameworks */,
+				2BAAAF631EE51A720030405D /* AVFoundation.framework in Frameworks */,
+				2BAAAF611EE51A6C0030405D /* CoreMedia.framework in Frameworks */,
+				2BAAAF5F1EE51A650030405D /* AssetsLibrary.framework in Frameworks */,
+				2BAAAF5D1EE51A5E0030405D /* ImageIO.framework in Frameworks */,
+				2B8178341EE7BE0700F88912 /* libtensorflow-core-arm64.a in Frameworks */,
+				2BAAAF5B1EE51A570030405D /* Foundation.framework in Frameworks */,
+				2BAAAF591EE51A510030405D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2BAAAF211EE50ECD0030405D = {
+			isa = PBXGroup;
+			children = (
+				2BAAAF2C1EE50ECD0030405D /* TensorFlowDemo */,
+				2BAAAF2B1EE50ECD0030405D /* Products */,
+				2BAAAF571EE51A510030405D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2BAAAF2B1EE50ECD0030405D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2BAAAF2A1EE50ECD0030405D /* TensorFlowDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2BAAAF2C1EE50ECD0030405D /* TensorFlowDemo */ = {
+			isa = PBXGroup;
+			children = (
+				2BAAAF301EE50ECE0030405D /* AppDelegate.h */,
+				2BAAAF311EE50ECE0030405D /* AppDelegate.mm */,
+				2BAAAF441EE517C40030405D /* TensorflowVC.h */,
+				2B81782C1EE7A3F200F88912 /* libTensorFlow.a */,
+				2B8178261EE7A06400F88912 /* imagenet_comp_graph_label_strings.txt */,
+				2B8178271EE7A06400F88912 /* tensorflow_inception_graph.pb */,
+				2B8178331EE7BE0700F88912 /* libtensorflow-core-arm64.a */,
+				2BAAAF361EE50ECE0030405D /* Main.storyboard */,
+				2BAAAF391EE50ECE0030405D /* Assets.xcassets */,
+				2BAAAF3B1EE50ECE0030405D /* LaunchScreen.storyboard */,
+				2BAAAF3E1EE50ECE0030405D /* Info.plist */,
+				2BAAAF2D1EE50ECE0030405D /* Supporting Files */,
+			);
+			path = TensorFlowDemo;
+			sourceTree = "<group>";
+		};
+		2BAAAF2D1EE50ECE0030405D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2BAAAF2E1EE50ECE0030405D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2BAAAF571EE51A510030405D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2BAAAF681EE51A870030405D /* Accelerate.framework */,
+				2BAAAF661EE51A7E0030405D /* CoreImage.framework */,
+				2BAAAF641EE51A780030405D /* CoreFoundation.framework */,
+				2BAAAF621EE51A720030405D /* AVFoundation.framework */,
+				2BAAAF601EE51A6C0030405D /* CoreMedia.framework */,
+				2BAAAF5E1EE51A650030405D /* AssetsLibrary.framework */,
+				2BAAAF5C1EE51A5E0030405D /* ImageIO.framework */,
+				2BAAAF5A1EE51A570030405D /* Foundation.framework */,
+				2BAAAF581EE51A510030405D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2BAAAF291EE50ECD0030405D /* TensorFlowDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BAAAF411EE50ECE0030405D /* Build configuration list for PBXNativeTarget "TensorFlowDemo" */;
+			buildPhases = (
+				2BAAAF261EE50ECD0030405D /* Sources */,
+				2BAAAF271EE50ECD0030405D /* Frameworks */,
+				2BAAAF281EE50ECD0030405D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TensorFlowDemo;
+			productName = TensorFlowDemo;
+			productReference = 2BAAAF2A1EE50ECD0030405D /* TensorFlowDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2BAAAF221EE50ECD0030405D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = jr;
+				TargetAttributes = {
+					2BAAAF291EE50ECD0030405D = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 8FS987QK6B;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 2BAAAF251EE50ECD0030405D /* Build configuration list for PBXProject "TensorFlowDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2BAAAF211EE50ECD0030405D;
+			productRefGroup = 2BAAAF2B1EE50ECD0030405D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2BAAAF291EE50ECD0030405D /* TensorFlowDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2BAAAF281EE50ECD0030405D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B8178281EE7A06400F88912 /* imagenet_comp_graph_label_strings.txt in Resources */,
+				2BAAAF3D1EE50ECE0030405D /* LaunchScreen.storyboard in Resources */,
+				2BAAAF3A1EE50ECE0030405D /* Assets.xcassets in Resources */,
+				2BAAAF381EE50ECE0030405D /* Main.storyboard in Resources */,
+				2B8178291EE7A06400F88912 /* tensorflow_inception_graph.pb in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2BAAAF261EE50ECD0030405D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BAAAF321EE50ECE0030405D /* AppDelegate.mm in Sources */,
+				2BAAAF2F1EE50ECE0030405D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2BAAAF361EE50ECE0030405D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2BAAAF371EE50ECE0030405D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2BAAAF3B1EE50ECE0030405D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2BAAAF3C1EE50ECE0030405D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2BAAAF3F1EE50ECE0030405D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2BAAAF401EE50ECE0030405D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2BAAAF421EE50ECE0030405D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8FS987QK6B;
+				ENABLE_BITCODE = NO;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = TensorFlowDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TensorFlowDemo",
+				);
+				OTHER_LDFLAGS = (
+					"-force_load",
+					"\"$(SRCROOT)/TensorFlowDemo/libtensorflow-core-arm64.a\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jd.test.TensorFlowDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2BAAAF431EE50ECE0030405D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8FS987QK6B;
+				ENABLE_BITCODE = NO;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = TensorFlowDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TensorFlowDemo",
+				);
+				OTHER_LDFLAGS = (
+					"-force_load",
+					"\"$(SRCROOT)/TensorFlowDemo/libtensorflow-core-arm64.a\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jd.test.TensorFlowDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2BAAAF251EE50ECD0030405D /* Build configuration list for PBXProject "TensorFlowDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BAAAF3F1EE50ECE0030405D /* Debug */,
+				2BAAAF401EE50ECE0030405D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BAAAF411EE50ECE0030405D /* Build configuration list for PBXNativeTarget "TensorFlowDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BAAAF421EE50ECE0030405D /* Debug */,
+				2BAAAF431EE50ECE0030405D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2BAAAF221EE50ECD0030405D /* Project object */;
+}
